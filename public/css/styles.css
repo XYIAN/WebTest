@@ -31,6 +31,21 @@ header, main, nav, footer
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
 }
+.button { 
+	display: inline-block; 
+	padding: 20px 40px;
+	color: white;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	vertical-align: middle;
+	font-family: 'Rubik One', sans-serif;
+	text-decoration: none;
+	font-size: 4vw;
+	transition: all .5s;
+	background-color: #3498db;
+}
 .centerText
 {
     text-align:center ;

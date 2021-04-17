@@ -23,12 +23,13 @@ header, main, nav, footer
 	color :#1FDED5 ;
 	background-image: url("f1.jpg");
 }
-.center
-{
-    margin-left: auto;
-    margin-right: auto;
-    width: 8em;
-    justify-content:center;
+.center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
 .centerText
 {
